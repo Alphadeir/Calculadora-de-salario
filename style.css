@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+form {
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(44, 62, 80, 0.12);
+    margin-top: 30px;
+    min-width: 320px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid #e3e3e3;
+}
+
+label {
+    font-weight: 500;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 93%;
+    padding: 12px;
+    margin: 0 0 10px 0;
+    border: 1px solid #bfc9d1;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border 0.2s;
+    background: #f9fbfc;
+}
+
+input[type="text"]:focus {
+    border: 1.5px solid #5cb85c;
+    outline: none;
+    background: #fff;
+}
+
+button {
+    background: linear-gradient(90deg, #5cb85c 60%, #4cae4c 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #4cae4c 60%, #5cb85c 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+#TotalSalario {
+    margin-top: 25px;
+    font-weight: bold;
+    color: #298d3b;
+    font-size: 1.2em;
+    text-align: center;
+    background: #eafaf1;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(44, 62, 80, 0.05);
+    border: 1px solid #d4f5e9;
+    min-height: 30px;
+}

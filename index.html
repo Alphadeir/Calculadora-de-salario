@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="Calcular.js"></script>
+</head>
+<body>
+    <h1>Salario</h1>
+    <!--calcular el salario total para 5 empleados-->
+
+    <form action="Calcular.js">
+        <input type="text" name="empleado1" id="Salario1" placeholder="Empleado 1" required><br><br>
+        <input type="text" name="empleado2" id="Salario2" placeholder="Empleado 2" required><br><br>
+        <input type="text" name="empleado3" id="Salario3" placeholder="Empleado 3" required><br><br>
+        <input type="text" name="empleado4" id="Salario4" placeholder="Empleado 4" required><br><br>
+        <input type="text" name="empleado5" id="Salario5" placeholder="Empleado 5" required><br><br>
+
+        <button type="button" onclick="CalcularSalario()">Calcular</button>
+
+        <p id="TotalSalario"></p>
+    </form>
+</body>
+</html>
